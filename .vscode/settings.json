@@ -1,4 +1,17 @@
 {
+  "files.encoding": "utf8",
+  "files.autoGuessEncoding": true,
+  "terminal.integrated.profiles.windows": {
+    "PowerShell UTF-8": {
+      "source": "PowerShell",
+      "args": [
+        "-NoExit",
+        "-Command",
+        "chcp 65001"
+      ]
+    }
+  },
+  "terminal.integrated.defaultProfile.windows": "PowerShell UTF-8",
   "C_Cpp_Runner.cCompilerPath": "gcc",
   "C_Cpp_Runner.cppCompilerPath": "g++",
   "C_Cpp_Runner.debuggerPath": "gdb",

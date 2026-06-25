@@ -1,0 +1,17 @@
+#define _CRT_SECURE_NO_WARNINGS
+#include <stdio.h>
+
+int main() {
+    int a;
+    int b;
+    int c;
+    int sum;
+
+    scanf("%d %d %d", &a, &b, &c);
+
+    sum = a + b + c;
+
+    printf("Answer = %d\n", sum);
+
+    return 0;
+}
